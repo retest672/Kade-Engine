@@ -37,13 +37,13 @@ jobs:
           haxelib install flixel-ui
           haxelib install hscript
           haxelib install flixel-addons
-          haxelib git faxe https://github.com/ashea-code/faxe
-          haxelib git polymod https://github.com/MasterEric/polymod
-          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          haxelib git faxe https://github.com/ashea-code/faxe.git
+          haxelib git polymod https://github.com/MasterEric/polymod.git
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc.git
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm.git
           haxelib run lime rebuild extension-webm windows
-          haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
-          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
+          haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
+          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit.git
           haxelib install actuate 
           haxelib list
           haxelib run lime build windows
@@ -78,13 +78,13 @@ jobs:
           haxelib install flixel-ui
           haxelib install hscript
           haxelib install flixel-addons
-          haxelib git faxe https://github.com/ashea-code/faxe
-          haxelib git polymod https://github.com/MasterEric/polymod
-          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          haxelib git faxe https://github.com/ashea-code/faxe.git
+          haxelib git polymod https://github.com/MasterEric/polymod.git
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc.git
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm.git
           haxelib run lime rebuild extension-webm macos
-          haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
-          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
+          haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
+          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit.git
           haxelib install actuate 
           haxelib list
           haxelib run lime build mac
@@ -122,13 +122,13 @@ jobs:
           haxelib install flixel-ui
           haxelib install hscript
           haxelib install flixel-addons
-          haxelib git faxe https://github.com/ashea-code/faxe
-          haxelib git polymod https://github.com/MasterEric/polymod
-          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          haxelib git faxe https://github.com/ashea-code/faxe.git
+          haxelib git polymod https://github.com/MasterEric/polymod.git
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc.git
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm.git
           haxelib run lime rebuild extension-webm linux
-          haxelib git linc_luajit https://github.com/MasterEric/linc_luajit
-          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
+          haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
+          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit.git
           haxelib install actuate 
           haxelib list
           haxelib run lime build linux
@@ -166,13 +166,13 @@ jobs:
           haxelib install flixel-ui
           haxelib install hscript
           haxelib install flixel-addons
-          haxelib git faxe https://github.com/ashea-code/faxe
-          haxelib git polymod https://github.com/MasterEric/polymod
-          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
-          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          haxelib git faxe https://github.com/ashea-code/faxe.git
+          haxelib git polymod https://github.com/MasterEric/polymod.git
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc.git
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm.git
           haxelib run lime rebuild extension-webm linux
-          haxelib git linc_luajit https://github.com/MasterEric/linc_luajit
-          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
+          haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
+          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit.git
           haxelib install actuate 
           haxelib list
           haxelib run lime build html5
