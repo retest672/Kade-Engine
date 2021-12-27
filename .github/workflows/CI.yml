@@ -37,7 +37,7 @@ jobs:
           haxelib install flixel-ui
           haxelib install hscript
           haxelib install flixel-addons
-          haxelib git faxe https://github.com/uhrobots/faxe
+          haxelib git faxe https://github.com/ashea-code/faxe
           haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
@@ -78,7 +78,7 @@ jobs:
           haxelib install flixel-ui
           haxelib install hscript
           haxelib install flixel-addons
-          haxelib git faxe https://github.com/uhrobots/faxe
+          haxelib git faxe https://github.com/ashea-code/faxe
           haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
@@ -122,7 +122,7 @@ jobs:
           haxelib install flixel-ui
           haxelib install hscript
           haxelib install flixel-addons
-          haxelib git faxe https://github.com/uhrobots/faxe
+          haxelib git faxe https://github.com/ashea-code/faxe
           haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
@@ -166,7 +166,7 @@ jobs:
           haxelib install flixel-ui
           haxelib install hscript
           haxelib install flixel-addons
-          haxelib git faxe https://github.com/uhrobots/faxe
+          haxelib git faxe https://github.com/ashea-code/faxe
           haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
