@@ -184,5 +184,5 @@ jobs:
           
       - uses: actions/upload-artifact@v2
         with:
-          name: HTML5 Build
+          name: Web Build
           path: export/release/html5/bin
