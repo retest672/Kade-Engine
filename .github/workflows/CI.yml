@@ -31,7 +31,7 @@ jobs:
           RefreshEnv
           mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
-          haxelib install lime 7.9.0
+          haxelib install lime
           RefreshEnv
           haxelib install openfl
           haxelib install flixel
@@ -73,7 +73,7 @@ jobs:
         run: |
           mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
-          haxelib install lime 7.9.0
+          haxelib install lime
           haxelib install openfl
           haxelib install flixel
           haxelib run lime setup flixel
@@ -117,7 +117,7 @@ jobs:
           sudo apt-get install gcc-multilib g++-multilib haxe -y
           mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
-          haxelib install lime 7.9.0
+          haxelib install lime
           haxelib install openfl
           haxelib install flixel
           haxelib run lime setup flixel
@@ -161,7 +161,7 @@ jobs:
           sudo apt-get install gcc-multilib g++-multilib haxe -y
           mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
-          haxelib install lime 7.9.0
+          haxelib install lime
           haxelib install openfl
           haxelib install flixel
           haxelib run lime setup flixel
