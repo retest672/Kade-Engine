@@ -50,6 +50,7 @@ jobs:
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
           haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
           haxelib install actuate 
+          haxelib install newgrounds 
           haxelib list
           haxelib run lime build windows
           
@@ -91,6 +92,7 @@ jobs:
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
           haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
           haxelib install actuate 
+          haxelib install newgrounds 
           haxelib list
           haxelib run lime build mac
       - uses: actions/upload-artifact@v2
@@ -134,6 +136,7 @@ jobs:
           haxelib git linc_luajit https://github.com/MasterEric/linc_luajit.git
           haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit.git
           haxelib install actuate 
+          haxelib install newgrounds 
           haxelib list
           haxelib run lime build linux
       - uses: actions/upload-artifact@v2
@@ -177,6 +180,7 @@ jobs:
           haxelib git linc_luajit https://github.com/MasterEric/linc_luajit.git
           haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit.git
           haxelib install actuate 
+          haxelib install newgrounds 
           haxelib list
           haxelib run lime build html5
           
