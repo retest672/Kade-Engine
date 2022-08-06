@@ -60,7 +60,7 @@ jobs:
           path: export/release/windows/bin
   buildMac32bit:
     # The type of runner that the job will run on
-    runs-on: macos-10.15
+    runs-on: macos-10.14
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -72,7 +72,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: script run line haha
         run: |
-          env /usr/bin/arch -i386 /bin/bash —-login
           mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
           haxelib install lime 7.9.0
