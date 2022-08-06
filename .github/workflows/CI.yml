@@ -94,7 +94,7 @@ jobs:
           haxelib install actuate 
           haxelib install newgrounds 
           haxelib list 
-          haxelib run lime build mac -arch i386
+          haxelib run lime build mac project.xml -arch i386
       - uses: actions/upload-artifact@v2
         with:
           name: Mac 32bit Build
