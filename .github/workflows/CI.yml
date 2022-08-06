@@ -60,7 +60,7 @@ jobs:
           path: export/release/windows/bin
   buildMac32bit:
     # The type of runner that the job will run on
-    runs-on: macos-10.14
+    runs-on: macos-10.15
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -94,7 +94,7 @@ jobs:
           haxelib install actuate 
           haxelib install newgrounds 
           haxelib list 
-          haxelib run lime build mac 
+          haxelib run lime build mac -arch i386
       - uses: actions/upload-artifact@v2
         with:
           name: Mac 32bit Build
