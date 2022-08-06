@@ -4,7 +4,7 @@ name: CI Builds
 
 # Controls when the workflow will run
 on:
-  push:
+#  push:
   pull_request:
   workflow_dispatch:
   schedule:
@@ -72,6 +72,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: script run line haha
         run: |
+          export CFLAGS="$CFLAGS -I/usr/include/" LFLAGS="$LFLAGS -arch i386 -I/usr/local/lib"
           mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
           haxelib install lime 7.9.0
