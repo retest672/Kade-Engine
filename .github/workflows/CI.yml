@@ -72,7 +72,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: script run line haha
         run: |
-          env /usr/bin/arch -i386 /bin/zsh —-login
+          env /usr/bin/arch -i386 /bin/bash —-login
           mkdir "%HAXELIB_ROOT%"
           haxelib setup "%HAXELIB_ROOT%"
           haxelib install lime 7.9.0
